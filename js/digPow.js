@@ -3,6 +3,7 @@ function digPow(n, p) {
     String(n)
       .split("")
       .reduce((total, cur, i) => total + cur ** (p + i), 0) / n;
+  // debugger;
   return Number.isInteger(k) ? k : -1;
 }
 
